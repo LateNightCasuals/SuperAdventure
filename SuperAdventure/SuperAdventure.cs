@@ -9,9 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SuperAdventure {
-	public partial class Form1 : Form {
-		public Form1() {
+	public partial class SuperAdventure : Form {
+		public SuperAdventure() {
 			InitializeComponent();
+		}
+
+		private void btnTest_Click(object sender, EventArgs e) {
+			lblGold.Text = "123";
 		}
 	}
 }
